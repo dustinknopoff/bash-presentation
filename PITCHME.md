@@ -6,19 +6,27 @@ Bash<br>*Your Way Through the Command Line*
 @snapend
 
 @snap[south-west byline text-white text-06]
-An Introduction to Getting Around.
+An Introduction
 @snapend
 ---
 
-@title[Slide Markdown]
+@title[The Core]
 
-### Each slide in this presentation is provided as a _template_.
+### ls, cp, mv, cd, and more
 
 <br><br>
 
-@snap[south span-100 text-purple text-05]
-Reuse the _markdown snippet_ for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
-@snapend
+```bash
+$ ls
+Applications  Documents     Movies        Public
+Brewfile      Downloads     Music         exclude_repos
+Desktop       Library       Pictures      nltk_data
+
+$ cd Documents
+$ ls
+Dropbox       Gits          dotfiles      testAudit.txt xi-mac
+
+```
 
 ---
 
